@@ -1,0 +1,15 @@
+html, body{
+  background-color: #1A374D !important;
+}
+.primary{
+  color: #F05454;
+}
+.secondary{
+  color: #93FFD8;
+}
+.bg-2{
+  background-color: #CDDEFF;
+}
+.text-one{
+  color: #072227;
+}
