@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 // redirection
-Route::redirect('/', 'Page1', 301);
+// Route::redirect('/', 'Page1', 301);
+Route::redirect('/', 'post.index', 301);
 
 // simple routing
 Route::view('Page3', 'Page3', ['page' => 'Page 3 : At End']);
